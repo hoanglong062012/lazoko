@@ -1,0 +1,75 @@
+﻿them thu vien font 
+<link href='//use.fontawesome.com/releases/v5.1.0/css/all.css' rel='stylesheet'/>
+
+chèn Code vào trước thẻ </body>
+
+<b:if cond='data:blog.pageType != "index"'>
+<!-- điều kiện áp dụng cho trang bài viết và trang tĩnh -->
+<style type='text/css'>
+/* CSS Comment */
+.first-comment{padding:10px 0 25px}
+.first-comment i{margin:0 7px 0 0}
+#comments .comment .comment-replybox-single .continue a,#comments .comment .comment-replybox-thread .continue a{}
+#comments .comment-thread .comment-replies .comment-actions{display:none!important}
+.comments iframe{border-bottom:1px solid #eee}
+.cancel-reply-bsw{font-size:14px;font-weight:500;display:block;padding:0 0 10px}
+#comments .comment-replybox-thread{position:relative}
+.item-control{display:none!important}
+.cancel_reply_bsw{padding:5px 14px;display:inline-block;margin:5px 0;background:#eee;border-radius:100px;font:500 12px Roboto,sans-serif}
+.cancel_reply_bsw:hover{background:#ddd}
+#comments h4{margin:15px 0 0;padding:10px 0 0;font-size:28px;font-weight:300;border-top:1px solid #eee}
+#comments{clear:both;margin:0;padding:0;background:0;box-sizing:border-box}
+#comments .comment-thread ol{margin:0;padding-left:0}
+#comments .comment-thread ol{padding-left:0}
+#comments .comment-thread .comment-replies,#comments .comment .comment-replybox-single{margin-left:16px;border-left:1px solid #eee;padding:0 0 0 20px}
+#comments .comment-thread .thread-count,.comments .continue{display:none}
+#comments .comment{list-style-type:none;display:block;position:relative;margin:0;padding:0 0 25px}
+#comments .comment .comment{padding:0}
+.comment .avatar-image-container{position:absolute;width:45px;height:45px;background:#ddd;border-radius:50%}
+.comment .avatar-image-container:after{content:''}
+.comment .avatar-image-container img{border-radius:50%;height:100%;width:100%}
+.avatar-image-container svg,.comment .avatar-image-container .avatar-icon{display:none}
+.comments .comments-content{margin:15px 0 0;clear:both;float:left;width:100%}
+.comments .comments-content .icon.blog-author:before{display:inline-block;vertical-align:middle;content:"\f00c";font-family:"Font Awesome 5 Free";font-weight:700;padding:5px;margin:-7px 0 -5px 4px;background:#ccc;color:#666;border-radius:50%;font-size:10px}
+.comment .blog-author:after{content:'Admin';position:absolute;font-weight:500;top:-26px;background:#ccc;padding:5px 10px;margin-left:-40px;opacity:0;visibility:hidden}
+.comments .comments-content .icon.blog-author:hover:after{opacity:1;visibility:visible}
+.comment .comment-block{line-height:1;margin:0 0 10px 55px;padding:10px;background:#ededed;display:inline-block}
+.comment .comment-block:before{content:'';border:20px solid #ededed;border-bottom:0 solid transparent;border-top:12px solid transparent;border-right:0;position:absolute;margin:-10px 0 0 35px;left:4px;transform:rotate(180deg)}
+.comment .comment-block:hover{}
+#comments .comment-author-header-bacsiwindows-wrap{margin-left:40px}
+.comment .blog-author{}
+#comments .comment .comment-header .user,#comments .comment .comment-header .user a{color:#555;font-style:normal;font-weight:700;font-size:16px;text-transform:capitalize}
+#comments .comment .comment-actions{font-size:14px;padding:10px 0 0;display:inline-block}
+#comments .comment .comment-actions a{color:#777;font-weight:700}
+#comments .comment .comment-actions a:before{content:'\f3e5';font-family:'Font Awesome 5 Free';font-weight:700;margin:0 5px 0 0}
+#comments .comment a:hover{text-decoration:underline}
+#comments .comment-actions &gt;*{}
+#comments .comment .comment-header .datetime{margin:0 0 0 5px}
+#comments .comment .comment-header .datetime a{font-weight:400;font-size:14px;color:#777}
+#comments .comment .comment-footer .comment-timestamp a{color:#777;font-weight:500}
+.comment-header{display:inline}
+#comments .comment .comment-content a{color:#4267b2}
+.comment .comment-body,#comments .comment .comment-content{color:#333;margin:5px 0 0;line-height:1.4;word-break:break-word}
+#comments .comment .comment-content br{display:table;content:'';padding:0 0}
+.comment-ban{background:#ff5643;padding:8px 16px;margin:0 auto 10px;color:#fff;float:none;border-radius:100px;width:fit-content}
+#comments .comment-thread .comment-replies .comment{margin:0 0 5px}
+comments .comment br{display:table!important;content:''!important;padding:3px 0!important}
+.comment-body{margin-bottom:12px}
+#comments.embed[data-num-comments="0"]{border:none;margin-top:0;padding-top:0}
+#comments.embed[data-num-comments="0"] #comment-post-message,#comments.embed[data-num-comments="0"] div.comment-form &gt;p,.comment-footer{display:none}
+#comment-editor-src{display:none}
+.comments .comments-content .loadmore.loaded,.loadmore{display:none!important}
+.commentnavi{clear:both;margin:10px 0 0;text-align:center}
+.commentnavi .page-first{float:left;margin:0 5px 0 0;display:none}
+.commentnavi .page-items{float:right;display:none}
+.commentnavi .page-number,.commentnavi .page-next,.commentnavi .page-number,.commentnavi .page-prev{margin:0 0 0 4px;width:35px;height:35px;line-height:35px;padding:0;background:#fff;display:inline-block;text-align:center;border-radius:5px;font-size:16px}
+.commentnavi .page-number:hover{background:#eee}
+.commentnavi .selected{padding:0;margin:0 0 0 4px;color:#fff;background:#7577a9;width:35px;height:35px;display:inline-block;text-align:center;line-height:35px;border-radius:5px;font-size:16px;font-weight:900}
+</style>
+</b:if>
+<!-- CSS Comment bacsiwindows -->
+
+Tìm trong template xóa từ đoạn này 
+.comments{display:block;clear:both;margin:0;color:$(title.color)}
+đến hết đoạn này 
+.comments .comments-content .loadmore,.comments .comments-content .loadmore.loaded{display:none}
