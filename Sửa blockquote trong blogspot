@@ -1,0 +1,17 @@
+Bỏ dấu: "
+
+Tìm dòng:
+blockquote:before
+
+Bên dưới có đoạn này, bỏ chúng đi
+content: '\f10e';
+font-family: 'Font Awesome 5 Free';
+
+Hoặc sửa opacity: .05; về 0 là xong.
+
+Chỉnh màu dọc sườn:
+Tìm
+blockquote
+Chỉnh màu đoạn này: 
+border-left: 2px solid var(--main-color);
+
