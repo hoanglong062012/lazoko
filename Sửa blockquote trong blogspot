@@ -15,3 +15,16 @@ blockquote
 Chỉnh màu đoạn này: 
 border-left: 2px solid var(--main-color);
 
+
+Code chính: 
+blockquote:before{position:absolute;left:10px;top:10px;content:'\f10e';font-family:'Font Awesome 5 Free';font-size:33px;font-style:normal;font-weight:900;color:var(--title-color);line-height:1;opacity:.05;margin:0}
+
+opacity:.05 sửa thành opacity:0
+
+
+Màu sắc 
+blockquote{position:relative;background-color:#fea;color:var(--title-color);font-style:normal;padding:16px 20px;margin:0;border-radius:var(--radius)}
+
+background-color:#fea chính là màu nền, sửa chỗ này.
+
+Thêm viền thì thêm code sau vào: border-left: 2px solid var(--main-color);
